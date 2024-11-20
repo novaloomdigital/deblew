@@ -12,38 +12,45 @@
 <body>
 <header class="container-fluid navbar navbar-expand-lg">
     <nav class="container">
-        
-        <a class="navbar-brand" href="/"><img src="/assets/images/DeblewLogo-Light-bg-1.png" alt=""></a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler col-xs-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        
+        <a class="navbar-brand col-lg-2" href="/"><img src="/assets/images/DeblewLogo-Light-bg-1.png" alt=""></a>
 
-        <div class="collapse navbar-collapse" id="navbarScroll">
+        <div class="collapse navbar-collapse col-lg-7 col-xs-7" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
                 
-                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#">Tools</a></li>
                 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Link
-                    </a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
                     <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Category</a></li>
+                        <li><a class="dropdown-item" href="#">Post</a></li>
                     </ul>
                 </li>
 
-                <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">Link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Search</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#">404</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#">Important Pages</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#">Archive</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#">Author</a></li>
             </ul>
-            
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
         </div>
+
+        <form class="d-flex col-lg-2 col-md-2" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
     </nav>
 </header>
 
